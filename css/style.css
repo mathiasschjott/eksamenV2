@@ -1,0 +1,157 @@
+/* Skrevet i hånden af Mathias Hedin Schjøtt */
+/* ==============================================
+                     Header
+=============================================== */
+
+.topbar {
+	background-color: #106cb7;
+	text-align: center;
+}
+
+#logo {
+	margin: 20px 0px;
+}
+
+/* Skrevet i hånden af Mathias Hedin Schjøtt */
+/* ==============================================
+                    Navigation
+=============================================== */
+
+nav { 
+	background: #FFF;
+}
+
+nav a { 
+	color: #106cb7; 
+	font-weight: bold; 
+	font-size: 14px;
+}
+
+nav ul.navbar-nav a { 
+	color: #106cb7; 
+	border-style: solid; 
+	border-width: 0 0 5px 0; 
+	border-color: #FFF; 
+}
+
+nav ul.navbar-nav a:hover,
+nav ul.navbar-nav a:visited,
+nav ul.navbar-nav a:focus,
+nav ul.navbar-nav a:active { 
+	background: #FFF; 
+}
+
+nav ul.navbar-nav a:hover,
+#navbar > ul > li.active > a,
+nav.navbar-static-top ul.navbar-nav a:focus { 
+	border-color: #106cb7; 
+}
+
+nav li.divider { 
+	background: #ccc; 
+}
+
+nav button.navbar-toggle { 
+	background: #106cb7; 
+	border-radius: 2px; 
+}
+
+nav button.navbar-toggle:hover { 
+	background: #999; 
+}
+
+nav button.navbar-toggle > span.icon-bar {
+	background: #fff; 
+}
+
+nav ul.dropdown-menu { 
+	border: 0; 
+	background: #fff; 
+	border-radius: 4px; 
+	margin: 4px 0; 
+	box-shadow: 0 0 4px 0 #ccc; 
+}
+
+nav ul.dropdown-menu > li > a { 
+	color: #444; 
+}
+
+nav ul.dropdown-menu > li > a:hover { 
+	background: #106cb7;
+	color: #fff;
+}
+
+.navbar { 
+	margin-bottom: 0px; 
+}
+
+.container-fluid { 
+	padding: 0px; 
+}
+
+.navbar .navbar-nav {
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+	text-align: center;
+}
+
+/* Skrevet i hånden af Mathias Hedin Schjøtt */
+/* ==============================================
+                  Main content
+=============================================== */
+
+main h1 {
+	font-size: 20px;
+}
+
+.leverandoerer img {
+	padding: 5px;
+}
+
+
+/* Skrevet i hånden af Mathias Hedin Schjøtt */
+/* ==============================================
+                  Footer
+=============================================== */
+
+footer {
+	margin-top: 125px;
+	background-color: #106cb7;
+	color: #FFFFFF;
+	padding: 30px 0px 10px 0px;
+	text-align: center;
+}
+
+footer address a {
+	color: #FFF;
+}
+
+footer address a:hover {
+	text-decoration: none;
+}
+
+footer address a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#payment h4 {
+	margin: 0px;
+}
+
+
+
+/* Skrevet i hånden af Mathias Hedin Schjøtt */
+/* ==============================================
+                Media Queries
+=============================================== */
+
+@media (min-width: 1200px) {
+	.container {
+		width: 1000px;
+	}
+}
