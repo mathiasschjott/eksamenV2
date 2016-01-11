@@ -12,6 +12,10 @@
 	margin: 20px 0px;
 }
 
+#logo img {
+	max-height: 150px;
+}
+
 /* Skrevet i hånden af Mathias Hedin Schjøtt */
 /* ==============================================
                     Navigation
@@ -119,8 +123,8 @@ main h1 {
 =============================================== */
 
 footer {
-	margin-top: 125px;
-	background-color: #972126;
+	margin-top: 75px;
+	background-color: #444;
 	color: #FFFFFF;
 	padding: 30px 0px 10px 0px;
 	text-align: center;
