@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Homemade Apple;
+    src: url(../font/across-the-road.ttf);
+}
+
 /* Skrevet i hånden af Mathias Hedin Schjøtt */
 /* ==============================================
                      Header
@@ -116,6 +121,16 @@ main h1 {
 	padding: 5px;
 }
 
+.panel {
+	width: 31%;
+	margin: 8px;
+}
+
+.customer-name {
+	font-family: 'Homemade Apple', serif;
+	font-size: 20px;
+	font-weight: bold;
+}
 
 /* Skrevet i hånden af Mathias Hedin Schjøtt */
 /* ==============================================
@@ -143,6 +158,28 @@ footer address a:link {
 	text-decoration: none;
 }
 
+/* Skrevet i hånden af Mathias Hedin Schjøtt */
+/* ==============================================
+                  Scrollbar
+=============================================== */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #666666;
+  border-radius: 26px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e1e1e1;
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
 
 /* Skrevet i hånden af Mathias Hedin Schjøtt */
 /* ==============================================
@@ -152,5 +189,12 @@ footer address a:link {
 @media (min-width: 1200px) {
 	.container {
 		width: 1000px;
+	}
+}
+
+@media (max-width: 767px) {
+	.panel {
+		width: 100%;
+		margin: 8px;
 	}
 }
