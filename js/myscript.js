@@ -9,4 +9,8 @@ $(document).ready(function(){
 			$(this).text('Se mindre');
 		}
 	});
+
+	$(".selectAll").focus(function() {
+    	$(this).select();
+	});
 });
